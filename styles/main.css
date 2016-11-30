@@ -1,0 +1,42 @@
+.top-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-06.jpg)center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.svg-logo {
+    width:100%;
+}
+.marketplace-logo {
+    fill: #fff;
+}
+.by-design-logo {
+    width:100px;
+    margin-bottom: 10px;
+}
+.inner-content-bottom {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+.created-by {
+    font-size: .8rem;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.main-cta {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 4px;
+}
+.main-cta:hover{
+    color: #f36;
+    border-bottom: 1px solid #f36;
+}
